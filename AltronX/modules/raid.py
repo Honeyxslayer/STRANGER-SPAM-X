@@ -45,7 +45,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             if int(g) in ALTRON:
-                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ  sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ 𝐇ᴏɴᴇʏ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(g) in SUDO_USERS:
                 await e.reply("» ᴀʙᴇ.. ʏᴇ sᴜᴅᴏ ʟᴇᴋᴀʀ ʙᴀɪᴛʜᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             else:
@@ -104,7 +104,7 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_id = int(a.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʜᴏɴᴇʏ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
                 await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
@@ -114,14 +114,14 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ʜᴇʜᴇ..🙃 ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None)
+                await e.reply("» ʜᴇʜᴇ..🙃 ɪs ᴄʜᴜᴛɪʏᴇ ᴘᴇ ʀᴇᴘʟʏ ʀᴀɪᴅ ʟᴀɢ ɢᴀʏᴀ ʜᴀɪɴ !! ✅", parse_mode=None, link_preview=None)
 
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
             user_id = int(b.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʜᴏɴᴇʏ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
                 await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
@@ -131,7 +131,7 @@ async def _(e):
                 gey = que.get(user_id)
                 phucker = [user_id]
                 gey.append(phucker)
-                await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+                await e.reply("» ᴜғғ.. ɪs ᴄʜᴜᴛɪʏᴇ ᴘᴇ ʀᴇᴘʟʏ ʀᴀɪᴅ ʟᴀɢ ɢᴀʏᴀ ʜᴀɪɴ !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
@@ -161,7 +161,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» ᴜғғ.. ɪs ᴍᴄ sᴇ ʀᴇᴘʟʏ ʀᴀɪᴅ ʜᴀᴛ ɢᴀʏᴀ  !! ✅", parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
             b = await e.client.get_entity(a.sender_id)
@@ -171,7 +171,7 @@ async def _(e):
                 queue.pop(0)
             except Exception:
                 pass
-            await e.reply("» ᴜғғ.. ᴀʙ ʀᴇᴘʟʏ ᴋʀɴᴇ ᴘʀ ɢᴀᴀʟɪʏᴀ ɴʜɪ ᴘᴀʀᴇɢɪ !! ✅", parse_mode=None, link_preview=None )
+            await e.reply("» ᴜғғ.. ɪs ᴍᴄ sᴇ ʀᴇᴘʟʏ ʀᴀɪᴅ ʜᴀᴛ ɢᴀʏᴀ  !! ✅", parse_mode=None, link_preview=None )
         else:
             await e.reply(usage)
 
